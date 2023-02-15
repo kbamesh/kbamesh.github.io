@@ -2,31 +2,36 @@
 <html>
 <head>
 <title>Stocks Page</title>
+<link rel="stylesheet" href="stocksstyles.css">
+
 </head>
 <body>
 
-<h1>Hello world</h1>
+  <a href="/index" style='font-size:1.2em'><span style="font-weight:bold">Home</span></a>
+
+
+<h1>Market Overview</h1>
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_2924a"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">Apple</span></a> by TradingView</div>
+<div class="tradingview-Main">
+  <div id="tradingview_bc4c4"></div>
+  <div class="tradingview-widget-copyright"><span class="white-text">KBamesh Stocks</span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.MediumWidget(
   {
   "symbols": [
     [
-      "Apple",
-      "AAPL|1D"
-    ],
-    [
-      "Google",
-      "GOOGL|1D"
-    ],
-    [
-      "Microsoft",
-      "MSFT|1D"
+        "S&P 500 ETF",
+        "AMEX:SPY|1D"
+      ],
+      [
+  "DOW Jones EFT",
+  "AMEX:DIA|1D"
+],
+[
+      "Nasdaq",
+      "AMEX:XNTK|1D"
     ]
   ],
   "chartOnly": false,
@@ -47,7 +52,113 @@
   "valuesTracking": "1",
   "changeMode": "price-and-percent",
   "chartType": "line",
+  "container_id": "tradingview_bc4c4"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+<h1>Main Investments</h1>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-Tech">
+  <div id="tradingview_2924a"></div>
+  <div class="tradingview-widget-copyright"><span class="white-text">KBamesh Stocks</span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.MediumWidget(
+  {
+  "symbols": [
+
+    [
+      "Apple",
+      "AAPL|1D"
+    ],
+    [
+      "Microsoft",
+      "MSFT|1D"
+    ],
+    [
+      "Disney",
+  "NYSE:DIS|1D"
+],
+[
+  "Snap",
+  "NYSE:SNAP|1D"
+],
+[
+   "Carvana",
+   "NYSE:CVNA|1D"
+ ],
+ [
+   "Uber",
+   "NYSE:UBER|1D"
+ ]
+  ],
+  "chartOnly": false,
+  "width": 1000,
+  "height": 500,
+  "locale": "en",
+  "colorTheme": "light",
+  "autosize": false,
+  "showVolume": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "line",
   "container_id": "tradingview_2924a"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+<h1> Crypto Curreny <h1>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-Crypto">
+  <div id="tradingview_b0925"></div>
+  <div class="tradingview-widget-copyright"><span class="white-text">KBamesh Crypto</span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.MediumWidget(
+  {
+  "symbols": [
+
+    [
+      "Bitcoin",
+      "BINANCE:BTCUSDT|1D"
+    ],
+    [
+      "Ethereum",
+     "BINANCE:ETHUSDT|1D"
+   ]
+  ],
+  "chartOnly": false,
+  "width": 1000,
+  "height": 500,
+  "locale": "en",
+  "colorTheme": "light",
+  "autosize": false,
+  "showVolume": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "line",
+  "container_id": "tradingview_b0925"
 }
   );
   </script>
