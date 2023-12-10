@@ -1,0 +1,36 @@
+body{
+
+background-color: #CBC3E3;
+/*
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+  background: linear-gradient(to bottom right, rgba(2,0,36,1), blue);
+  background-attachment: fixed; /*edit*/
+
+
+}
+
+
+h1 {
+
+  color: #EAEAEC
+}
+
+h3 {
+
+  color: #EAEAEC
+}
+
+a:link, a:visited {
+  background-color: #C9D1D5;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
